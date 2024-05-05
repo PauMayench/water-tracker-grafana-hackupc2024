@@ -1,4 +1,7 @@
-# HackUPC 2024 -- Water Tracker
+<h1>
+  <img src="https://github.com/PauMayench/water-tracker-grafana-hackupc2024/assets/120923489/242ac4e3-1302-46a7-a907-ca4a3c5e1640" alt="Logo" style="height:50px; vertical-align:middle;">
+  HackUPC 2024 -- Water Tracker
+</h1>
 
 
 
