@@ -108,12 +108,15 @@ a class that handles the data parsing and POST requests to the HTTP API.
 
 
 ## Improvements
-We could add the feature of sending a message to the ESP23 from the dashboard when an aletr happens and alerting the user.
+We could add the feature of communicating back to the ESP23 from the dashboard, for example when an alert happens be able to alert the user through the device.
 
-We could also implement the project with more Microcontrolers and test it out creating a more robust way to test and see the viability of the abitious big project.
+We could also implement the project with more microcontrollers and test it out, creating a more robust way to test and see the viability of the ambitious big project.
 
     
 
 ## Authors 
-Pau Mayench, Xavi Medina, Ferriol Falip & Jordi Otal
+- Pau Mayench
+- Xavi Medina
+- Ferriol Falip 
+- Jordi Otal
 
