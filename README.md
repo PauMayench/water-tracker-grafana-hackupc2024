@@ -49,6 +49,8 @@ Our system uses the microcontroller ESP23 connected to many sensors to monitor t
 
 <img src="https://github.com/PauMayench/water-tracker-grafana-hackupc2024/assets/120923489/f2009250-5632-4395-944e-a9ca09d4972f" width="70%" alt="diagram_readme">
 
+
+
 ## How it works
 
 The ESP32 represents several different microcontrollers, as we had only access to one. 
@@ -104,7 +106,11 @@ a class that handles the data parsing and POST requests to the HTTP API.
     Then you can execute the main script with:
     `python3 main.py`
 
-    At this point all the data should be flowing on real tie to the Grafana dashboard, displaying all the info in real time
+    At this point all the data should be flowing to the Grafana dashboard, displaying all the info in real time
+
+
+<img src="https://github.com/PauMayench/water-tracker-grafana-hackupc2024/assets/120923489/0e4cf79d-90a5-4624-923a-384ef1f59907" width="70%" alt="diagram_readme">
+
 
 
 ## Improvements
@@ -115,8 +121,11 @@ We could also implement the project with more microcontrollers and test it out, 
     
 
 ## Authors 
+
 - Pau Mayench
 - Xavi Medina
 - Ferriol Falip 
 - Jordi Otal
+
+
 
