@@ -8,7 +8,7 @@
 ## Introduction
 
 
-This Water Tracker project aims to raise awareness about the water consumption of the population. 
+This Water Tracker project utilizes microcontrollers and real-time data to raise awareness about water consumption across the population.
 Our system uses the microcontroller ESP23 connected to many sensors to monitor the water levels of five lakes and personal water usage, displaying the data through Grafana for easy visualization and monitoring. The system also alerts users based on predefined consumption and drought conditions.
 
 <img src="https://github.com/PauMayench/water-tracker-grafana-hackupc2024/assets/120923489/6d01d61f-aee7-4ef5-8d9b-a7359a84c24c" width="100%" alt="diagram_readme">
