@@ -4,9 +4,15 @@ from server.grafana_api import PrometheusAPI
 import time
 import random
 
+def load_credentials():
+    with open(".credentials.json", 'r') as file:
+        aux_credentials = file.read()
+    credentials = json.loads(aux_credentials)
+    return credentials["API_ID"], credentials["API_TOKEN"]
 
-USER_ID  = 1561843
-API_KEY  = "glc_eyJvIjoiMTExNjQ4OSIsIm4iOiJzdGFjay05MjMyOTEtaW50ZWdyYXRpb24tam90YWwyMDI0IiwiayI6InB0OGVOUTA2UnVuNTl5Y2hQNjFsMTBtNSIsIm0iOnsiciI6InByb2QtZXUtd2VzdC0yIn19"
+
+
+USER_ID, API_KEY = load_credentials() 
 ENDPOINT = "https://influx-prod-24-prod-eu-west-2.grafana.net/api/v1/push/influx/write"
 
 
