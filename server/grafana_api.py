@@ -64,24 +64,4 @@ class PrometheusAPI:
             logging.error(e)
 
 
-def test_api():
-    USER_ID  = 1561843
-    API_KEY  = "glc_eyJvIjoiMTExNjQ4OSIsIm4iOiJzdGFjay05MjMyOTEtaW50ZWdyYXRpb24tam90YWwyMDI0IiwiayI6InB0OGVOUTA2UnVuNTl5Y2hQNjFsMTBtNSIsIm0iOnsiciI6InByb2QtZXUtd2VzdC0yIn19"
-    ENDPOINT = "https://influx-prod-24-prod-eu-west-2.grafana.net/api/v1/push/influx/write"
-    
-    sample = {
-        "temperature": 25, # ºC
-        "humidity": 30,   # %
-        "level_lake1": 700, #L (max 950)
-        "level_lake2": 312, #L, (max 800)
-        "level_lake3": 132, #L, (max 200)
-        "level_lake4": 53 #L, (max 300)
-    }
-
-    api = PrometheusAPI(USER_ID, API_KEY, ENDPOINT)
-    api.send_to_grafana(sample)
-
-
-if __name__ == "__main__":
-    test_api()
 
